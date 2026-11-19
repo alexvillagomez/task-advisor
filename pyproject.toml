@@ -1,0 +1,14 @@
+[build-system]
+requires = []
+build-backend = "advisor_build"
+backend-path = ["."]
+
+[project]
+name = "task-advisor"
+version = "0.4.0"
+description = "Local personal model router with text-free feedback and backlog learning"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+advisor = "advisor.__main__:main"

@@ -1,0 +1,20 @@
+{
+  "description": "Provider-neutral advisor tiers mapped to the currently priced local trial configurations.",
+  "tiers": {
+    "cheap": {
+      "reasoning_effort": "low",
+      "learned_configuration": "gpt-5.6-luna+low",
+      "pricing_model": "gpt-5.6-luna"
+    },
+    "mid": {
+      "reasoning_effort": "medium",
+      "learned_configuration": "gpt-5.6-terra+low",
+      "pricing_model": "gpt-5.6-terra"
+    },
+    "frontier": {
+      "reasoning_effort": "high",
+      "learned_configuration": "gpt-5.6-terra+medium",
+      "pricing_model": "gpt-5.6-terra"
+    }
+  }
+}

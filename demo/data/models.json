@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "as_of": "2026-11-13",
+  "currency": "USD",
+  "unit": "per_million_tokens",
+  "note": "Snapshot from business/BUSINESS_PLAN.md; new-generation and floating-alias prices are estimates. Capability transfer from synthetic gpt-5.6 trials is an uncalibrated prior.",
+  "models": [
+    {"engine":"codex","id":"gpt-6-luna","efforts":["low","medium","high"],"tier":"cheap","input":0.1,"output":0.5,"estimate":false},
+    {"engine":"codex","id":"gpt-6.1-terra","efforts":["low","medium","high"],"tier":"mid","input":1,"output":5,"estimate":false},
+    {"engine":"codex","id":"gpt-6.1-sol","efforts":["low","medium","high"],"tier":"mid","input":2,"output":10,"estimate":false},
+    {"engine":"codex","id":"gpt-6-astra","efforts":["low","medium","high"],"tier":"frontier","input":10,"output":50,"estimate":false},
+    {"engine":"claude","id":"haiku","efforts":["low","medium","high"],"tier":"cheap","input":0.1,"output":0.5,"estimate":true},
+    {"engine":"claude","id":"sonnet","efforts":["low","medium","high"],"tier":"mid","input":2,"output":10,"estimate":true},
+    {"engine":"claude","id":"opus","efforts":["low","medium","high"],"tier":"frontier","input":4,"output":20,"estimate":true}
+  ]
+}
